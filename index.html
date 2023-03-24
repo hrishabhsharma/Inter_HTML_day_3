@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3</title>
+</head>
+<body>
+    <h2>Question No-1</h2>
+    <h3>Write a code to insert an image</h3>
+    <pre style="font-size: 16px;">
+        To insert an image in html, we use img tag. In this tag we have to use src (source) attribute
+        to provide the image url. And other than that we give alt (alternate) attribute, whose value
+        will be displayed on the screen if the image url given in source is not correct.
+
+        <strong>Code:</strong>
+
+        &lth1>Image&lt/h1>
+        &ltimg src=”link address of the image” alt=”alternate text” />
+    
+    </pre>
+    <br><hr><br>
+    
+    <h2>Question No-2</h2>
+    <h3>Create a form contain input field like name age email and contact</h3>
+    <pre style="font-size: 16px;">
+        Whenever you are creating in HTML forms, you should create an input field inside that
+        we must add attributes like type, name, id and value. So that when you are submitting
+        the form you are able to see the output given by the user in the url.
+
+        <strong>Code:</strong>
+
+        &lth1>Create an form&lt;/h1>
+        &lt;form action="#">
+        &lt;label for="name">Enter your name :- &lt;/label>
+        &lt;input type="text" name="name" id="name" placeholder="Your Name">&lt;br>&lt;br>
+
+        &lt;label for="age">Enter your age :- &lt;/label>
+        &lt;input type="number" name="age" id="age" placeholder="Your Age">&lt;br>&lt;br>
+
+        &lt;label for="mail">Enter your Email :- &lt;/label>
+        &lt;input type="email" name="email" id="mail" placeholder="Your Email">&lt;br>&lt;br>
+
+        &lt;label for="phone">Enter your contact :- &lt;/label>
+        &lt;input type="tel" name="contact" id="phone" placeholder="Your Number">&lt;br>&lt;br>
+
+        &ltbutton>Submit&lt;/button>
+
+        &lt/form>
+    </pre>
+    <br><hr><br>
+
+    <h2>Question No-3</h2>
+    <h3>Create a table and explain how to achieve colspan</h3>
+    <pre style="font-size: 16px;">
+        Colspan is used to combine two columns together.
+
+        <strong>Code:</strong>
+
+        &lth1>Example of Colspan&lt/h1>
+        &lttable border="1">
+            &lttr>
+                &ltth>Cell 1&lt/th>
+                &ltth>Cell 2&lt/th>
+                &ltth>Cell 3&lt/th>
+            &lt/tr>
+            &lttr>
+                &lttd colspan="2">Ball&lt/td>
+                &lttd>Ball&lt/td>
+            &lt/tr>
+            &lttr>
+                &lttd>Doll&lt/td>
+                &lttd>Doll&lt/td>
+                &lttd>Doll&lt/td>
+            &lt/tr>
+        &lt/table>
+
+    </pre>
+    <br><hr><br>
+
+    <h2>Question No-4</h2>
+    <h3>Create one form that contain name input, password input, 3 radio buttons(HTML,CSS,Js), 2 checkboxs (cricket,football,hockey) and one submit button. When you click on that button the value should be shown in the URL.</h3>
+    <pre style="font-size: 16px;">
+       
+        <strong>Code:</strong>
+        
+        &lth1>Create an form&lt/h1>
+        &ltform action="#">
+            &ltlabel for="nm">Enter your name :-&lt;/label>
+            &ltinput type="text" name="name" id="nm" placeholder="Your Name">&lt;br>&lt;br>
+
+            &ltlabel for="pwd">Enter your Password :-;&lt;/label>
+            &ltinput type="password" name="pass" id="pwd" placeholder="Enter Password">&lt;br>&lt;br>
+
+            &ltlabel>Enter Your Favourite Coding Language&lt;/label>&ltbr>
+
+            &ltinput type="radio" name="Coded_lang" id="html" value="HTML">
+            &ltlabel for="html">HTML&lt;/label>&lt;br>
+
+            &ltinput type="radio" name="Coded_lang" id="css" value="CSS">
+            &ltlabel for="css">CSS&lt;/label>&lt;br>
+
+            &ltinput type="radio" name="Coded_lang" id="js" value="JS">
+            &ltlabel for="js">JS&lt;/label>&lt;br>&lt;br>
+
+            &ltlabel>Enter Your Favourite Game&lt;/label>&lt;br>
+
+            &ltinput type="checkbox" name="Game_1" id="ck" value="cricket">
+            &ltlabel for="ck">Cricket&lt;/label>&lt;br>
+
+            &ltinput type="checkbox" name="Game_2" id="fb" value="football">
+            &ltlabel for="fb">Football&lt;/label>&lt;br>
+
+            &ltinput type="checkbox" name="Game_3" id="hk" value="hockey">
+            &ltlabel for="hk">Hockey&lt;/label>&lt;br>&lt;br>
+
+            &ltbutton>Submit&lt;/button>
+
+
+        &lt/form>
+
+    </pre>
+    <br><hr><br>
+
+    
+</body>
+</html>
